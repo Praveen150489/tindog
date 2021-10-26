@@ -1,0 +1,141 @@
+  body{
+    font-family: 'Montserrat-Black', sans-serif;
+  }
+  .colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+  }
+  .white-section{
+    background-color: #fff;
+  }
+  h1{
+    font-family: 'Lobster', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  .title-row{
+    text-align: center;
+  }
+  .container-fluid{
+    padding: 3% 15% 7%;
+  }
+  .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+  }
+  .navbar{
+    padding-bottom: 4.5rem;
+  }
+  .nav-item{
+    padding: 0 18px;
+  }
+  .nav-link{
+    font-size: 1.2rem;
+  }
+  .download-button{
+    margin: 5% 3% 5% 0;
+  }
+  .iphone-image{
+      padding-top: 5%;
+  }
+  .title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+  }
+  #features{
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+  }
+  .feature-box{
+    text-align: center;
+    padding: 5%;
+  }
+  .icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  .icon:hover{
+    color: #ff4c68;
+  }
+  p{
+    color: #8f8f8f;
+  }
+  
+  /*  testimonials  */
+  
+  #testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+  }
+  h2{
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  .testimonial-text{
+    font-family: 'Lobster', cursive;
+  }
+  .testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  /*  Press  */
+  
+  #press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  /*  Pricing  */
+  
+  #pricing{
+    padding: 7% 10%;
+    text-align: center;
+  }
+  .pricing-col{
+    padding: 3% 2%;
+  }
+  
+  /*  Call to Action  */
+
+  #cta{
+    text-align: center;
+    padding: 7% 15%;
+  }
+  .cta-heading{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+
+  /*  Footer  */
+
+  #footer{
+    text-align: center;
+    padding: 7% 15%;
+  }
+
+  .social-icon{
+    margin: 20px 10px;
+  }
+
+
+  @media (max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    .title-row{
+        text-align: center;
+    }
+  }
